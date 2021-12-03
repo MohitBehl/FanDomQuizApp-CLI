@@ -1,0 +1,23 @@
+{
+  "name": "fandomquizapp-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohitBehl/FanDomQuizApp-CLI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohitBehl/FanDomQuizApp-CLI/issues"
+  },
+  "homepage": "https://github.com/MohitBehl/FanDomQuizApp-CLI#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "readline-sync": "^1.4.10"
+  }
+}
