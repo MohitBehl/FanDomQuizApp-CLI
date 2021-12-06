@@ -147,7 +147,7 @@ function startQuiz(questions){
         console.log(chalk.yellowBright("Current Score : "+score));
         console.log();
         var userRes = readLineSync.question("Ques."+(i+1)+" "+questions[i].question);
-        if(userRes.toUpperCase() == questions[i].answer){
+        if(userRes.toUpperCase() === questions[i].answer){
             score = score + 1;
             console.log(chalk.greenBright("answer is Correct"));
             countCorrect = countCorrect + 1;
